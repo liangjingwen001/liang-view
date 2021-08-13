@@ -1,0 +1,11 @@
+{
+  "name": "liangview",
+  "version": "1.0.0",
+  "description": "liangjingwen的UI组件",
+  "main": "liangview.umd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <my-tip/>
+    <my-button @click="clickFunc">
+      这是一个按钮
+    </my-button>
+    <my-button size="mid" @click="clickFunc">
+      这是一个按钮
+    </my-button>
+    <my-button size="small" @click="clickFunc">
+      这是一个按钮
+    </my-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
